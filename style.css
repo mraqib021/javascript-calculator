@@ -1,0 +1,56 @@
+*{
+    background-color:lightgreen ;
+    font-size: x-large;
+}
+.container{
+    text-align: center;
+    
+}
+#result{
+    background-color: gray;
+}
+#Ac{
+    background-color: red;
+}
+.txt{
+    
+}
+.display{
+    
+}
+input{
+    background-color:linen ;
+    height: 65px;
+    width: 317px;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: right;
+}
+.num{
+    height: 56px;
+    width: 81px;
+    text-align: center;
+    margin-top: 6px;
+
+}
+.num:hover{
+    background-color:sandybrown;
+}
+.num0{
+    margin-top: 6px;
+    text-align: center;
+    height: 56px;
+    width: 168px;
+}
+.num0:hover{
+    background-color: sandybrown;
+}
+.opr{
+    margin-top: 6px;
+    text-align: center;
+    height: 56px;
+    width: 81px;
+}
+.opr:hover{
+    background-color:sandybrown;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="txt">
+                <h1>Java Script Calculator</h1>
+            </div>
+
+            <div class="display">
+                <input type="text" name="result" id="result" placeholder="0" disabled>
+            </div>
+            <div class="first-row">
+                <input type="button" value="Ac" id="Ac" class="opr" onclick="removescreen('')">
+                <input type="button" value="+/-" class="opr" onclick="display('+/-')">
+                <input type="button" value="%" class="opr" onclick="display('%')">
+                <input type="button" value="/" class="opr" onclick="display('/')">
+            </div>
+            <div class="second-row">
+                <input type="button" value="7" class="num" onclick="display(7)">
+                <input type="button" value="8" class="num" onclick="display(8)">
+                <input type="button" value="9" class="num" onclick="display(9)">
+                <input type="button" value="*" class="opr" onclick="display('*')">
+            </div>
+            <div class="third-row">
+                <input type="button" value="4" class="num" onclick="display(4)">
+                <input type="button" value="5" class="num" onclick="display(5)">
+                <input type="button" value="6" class="num" onclick="display(6)">
+                <input type="button" value="-" class="opr" onclick="display('-')">
+            </div>
+            <div class="four-row">
+                <input type="button" value="1" class="num" onclick="display(1)">
+                <input type="button" value="2" class="num" onclick="display(2)">
+                <input type="button" value="3" class="num" onclick="display(3)">
+                <input type="button" value="+" class="opr" onclick="display('+')">
+            </div>
+            <div class="five-row">
+                <input type="button" value="0" class="num0" onclick="display(0)">
+                <input type="button" value="." class="opr" onclick="display('.')">
+                <input type="button" value="=" style="background-color: greenyellow;" class="opr" onclick="result.value = eval(result.value)">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
